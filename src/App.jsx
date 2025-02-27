@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import TodoForm from "./Components/TodoForm";
-import TodoItem from "./Components/Todoitem";
 import QuoteGenerator from "./Components/QuoteGenerator";
 import TodoFilter from "./Components/TodoFilter";
 import './App.css'
+import TodoItem from "./Components/Todoitem";
 
 function App() {
   const [todos, setTodos] = useState([]);
