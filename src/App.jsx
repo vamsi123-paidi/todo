@@ -62,7 +62,7 @@ function App() {
       </div>
       <div className="todo-stats">
         <p>{todos.filter((todo) => !todo.completed).length} tasks left</p>
-        <button onClick={clearCompleted}>Clear Completed</button>
+        <button onClick={clearCompleted}>Clear</button>
       </div>
       <QuoteGenerator />
     </div>
